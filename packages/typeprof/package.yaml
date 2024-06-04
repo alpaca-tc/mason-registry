@@ -1,0 +1,20 @@
+---
+name: typeprof
+description: |
+  An experimental type-level Ruby interpreter for testing and understanding Ruby code
+homepage: https://github.com/ruby/typeprof
+licenses:
+  - MIT
+languages:
+  - Ruby
+categories:
+  - LSP
+
+source:
+  id: pkg:gem/typeprof@0.21.11
+
+schemas:
+  lsp: vscode:https://raw.githubusercontent.com/ruby/vscode-typeprof/master/package.json
+
+bin:
+  typeprof: gem:typeprof
